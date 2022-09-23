@@ -1,5 +1,5 @@
 pipeline {
-  agent SAMAD
+  agent none
     stages {
         stage ('Build')
         {
