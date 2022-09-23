@@ -1,24 +1,28 @@
 pipeline {
-  agent any
+  agent SAMAD
     stages {
         stage ('Build')
         {
         steps{
+        echo "building project"
         }
         }
         stage ('Test')
         {
         steps{
+        echo "testing project"
         }
         }
       stage ('Deploy')
         {
         steps{
+        echo "deploying project"
         }
         }
 stage ('Release')
       {
       steps{
+      echo "releasing project"
       }
       }
       }   
